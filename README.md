@@ -70,6 +70,10 @@
 
 # 2D LSTM
 
+- [2009-graves-multidimensional.pdf](2009-graves-multidimensional.pdf)
+- [2014-byeon-supervised-texture.pdf](2014-byeon-supervised-texture.pdf)
+- [2016-visin-reseg.pdf](2016-visin-reseg.pdf)
+
 # Seq2Seq, Attention
 
 - [2012-graves-sequence-transduction.pdf](2012-graves-sequence-transduction.pdf)
@@ -80,11 +84,20 @@
 
 # Visual Attention
 
-# Parallel and Distributed Training
+- [2017-nam-dual-attention.pdf](2017-nam-dual-attention.pdf)
+- [2016-you-dual-attention.pdf](2016-you-dual-attention.pdf)
 
 # Deformable Convolutions
 
+- [2017-dai-deformable.pdf](2017-dai-deformable.pdf)
+
+# Parallel and Distributed Training
+
+- [2017-chen-distributed-sgd.pdf](2017-chen-distributed-sgd.pdf)
+
 # Adversarial Samples
+
+- [2017-yuan-adversarial.pdf](2017-yuan-adversarial.pdf)
 
 # Squeezing
 
