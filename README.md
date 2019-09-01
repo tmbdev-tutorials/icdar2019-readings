@@ -75,6 +75,7 @@
 - [2009-graves-multidimensional](General/2009-graves-multidimensional.pdf)
 - [2014-byeon-supervised-texture](General/2014-byeon-supervised-texture.pdf)
 - [2016-visin-reseg](General/2016-visin-reseg.pdf)
+- [2015-visin-renet](OCR/2015-visin-renet.pdf)
 
 ## Seq2Seq, Attention
 
@@ -109,22 +110,39 @@
 
 - [2014-schmidhuber-deep-learning-survey](General/2014-schmidhuber-deep-learning-survey.pdf)
 - [2015-lecun-nature-deep-learning](General/2015-lecun-nature-deep-learning.pdf)
+- [2015-karpathy-recurrent-ocr](OCR/2015-karpathy-recurrent-ocr.pdf)
 - [2018-alom-survey-imagenet](General/2018-alom-survey-imagenet.pdf)
 
 ## OCR
 
-- [2011-fischer-novel-word-spoting](OCR/2011-fischer-novel-word-spoting.pdf)
 - [2012-elaguni-ocr-in-video](OCR/2012-elaguni-ocr-in-video.pdf)
+    - manually labeled training data on small dataset
+    - multiscale, convnet features, BLSTM, CTC
 - [2013-goodfellow-multidigit](OCR/2013-goodfellow-multidigit.pdf)
+    - Google SVHN digits, 200k numbers with bounding boxes
+    - 8 layer convnet, ad-hoc sequence modeling
 - [2014-bluche-comparison-sequence-trained](OCR/2014-bluche-comparison-sequence-trained.pdf)
+    - HMM, GMM-HMM, MLP-HMM, LSTM
+    - Rimes, IAM; decoding with Kaldi (ASR toolkit)
 - [2014-jaderberg-convnet-ocr-wild](OCR/2014-jaderberg-convnet-ocr-wild.pdf)
-- [2015-karpathy-recurrent-ocr](OCR/2015-karpathy-recurrent-ocr.pdf)
+    - convnet, R-CNN, bounding box regression
+    - synthetic, ICDAR scene text, IIT Scene Text, IIT 5k words, IIT Sports-10k, BBC News
+    - no bounding boxes in general; initial detector trained on positive word samples, negative images
+    - 10k proposals per image
 - [2015-sahu-s2s-ocr](OCR/2015-sahu-s2s-ocr.pdf)
-- [2015-visin-renet](OCR/2015-visin-renet.pdf)
+    - standard seq2seq encoder/decoder approach
+    - TSNE visualizations of encoded word images
+    - word images from scanned books
 - [2016-bluche-end-to-end-hw-mdlstm-attention](OCR/2016-bluche-end-to-end-hw-mdlstm-attention.pdf)
+    - full paragraph handwriting recognition without explicit segmentation
+    - MDLSTM plus attention, tracking, etc.
+    - IAM database, pretraining LSTM+CTC, curriculum learning
 - [2016-he-reading-scene-text](OCR/2016-he-reading-scene-text.pdf)
+    - large CNN, Maxout units, LSTM, CTC
+    - Street View Text, IIT 5k-word, PhotoOCR, etc., using bounding boxes for training
 - [2016-lee-recursive-recurrent-attention-wild](OCR/2016-lee-recursive-recurrent-attention-wild.pdf)
-- [2016-lee-recursive-recurrent-ocr-wild](OCR/2016-lee-recursive-recurrent-ocr-wild.pdf)
+    - recursive convolutional layers, tied weights, followed by attention, character level modeling
+    - ICDAR 2003, 2013, SVT, IIT5k, Synth90k using bounding boxes for training
 
 ## Additional Readings
 
