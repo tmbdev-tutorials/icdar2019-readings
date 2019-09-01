@@ -73,6 +73,7 @@
 <li><a href="General/2009-graves-multidimensional.pdf">2009-graves-multidimensional</a></li>
 <li><a href="General/2014-byeon-supervised-texture.pdf">2014-byeon-supervised-texture</a></li>
 <li><a href="General/2016-visin-reseg.pdf">2016-visin-reseg</a></li>
+<li><a href="OCR/2015-visin-renet.pdf">2015-visin-renet</a></li>
 </ul>
 <h2 id="seq2seq-attention">Seq2Seq, Attention</h2>
 <ul>
@@ -107,22 +108,55 @@
 <ul>
 <li><a href="General/2014-schmidhuber-deep-learning-survey.pdf">2014-schmidhuber-deep-learning-survey</a></li>
 <li><a href="General/2015-lecun-nature-deep-learning.pdf">2015-lecun-nature-deep-learning</a></li>
+<li><a href="OCR/2015-karpathy-recurrent-ocr.pdf">2015-karpathy-recurrent-ocr</a></li>
 <li><a href="General/2018-alom-survey-imagenet.pdf">2018-alom-survey-imagenet</a></li>
 </ul>
 <h2 id="ocr">OCR</h2>
 <ul>
-<li><a href="OCR/2011-fischer-novel-word-spoting.pdf">2011-fischer-novel-word-spoting</a></li>
-<li><a href="OCR/2012-elaguni-ocr-in-video.pdf">2012-elaguni-ocr-in-video</a></li>
-<li><a href="OCR/2013-goodfellow-multidigit.pdf">2013-goodfellow-multidigit</a></li>
-<li><a href="OCR/2014-bluche-comparison-sequence-trained.pdf">2014-bluche-comparison-sequence-trained</a></li>
-<li><a href="OCR/2014-jaderberg-convnet-ocr-wild.pdf">2014-jaderberg-convnet-ocr-wild</a></li>
-<li><a href="OCR/2015-karpathy-recurrent-ocr.pdf">2015-karpathy-recurrent-ocr</a></li>
-<li><a href="OCR/2015-sahu-s2s-ocr.pdf">2015-sahu-s2s-ocr</a></li>
-<li><a href="OCR/2015-visin-renet.pdf">2015-visin-renet</a></li>
-<li><a href="OCR/2016-bluche-end-to-end-hw-mdlstm-attention.pdf">2016-bluche-end-to-end-hw-mdlstm-attention</a></li>
-<li><a href="OCR/2016-he-reading-scene-text.pdf">2016-he-reading-scene-text</a></li>
-<li><a href="OCR/2016-lee-recursive-recurrent-attention-wild.pdf">2016-lee-recursive-recurrent-attention-wild</a></li>
-<li><a href="OCR/2016-lee-recursive-recurrent-ocr-wild.pdf">2016-lee-recursive-recurrent-ocr-wild</a></li>
+<li><a href="OCR/2012-elaguni-ocr-in-video.pdf">2012-elaguni-ocr-in-video</a>
+<ul>
+<li>manually labeled training data on small dataset</li>
+<li>multiscale, convnet features, BLSTM, CTC</li>
+</ul></li>
+<li><a href="OCR/2013-goodfellow-multidigit.pdf">2013-goodfellow-multidigit</a>
+<ul>
+<li>Google SVHN digits, 200k numbers with bounding boxes</li>
+<li>8 layer convnet, ad-hoc sequence modeling</li>
+</ul></li>
+<li><a href="OCR/2014-bluche-comparison-sequence-trained.pdf">2014-bluche-comparison-sequence-trained</a>
+<ul>
+<li>HMM, GMM-HMM, MLP-HMM, LSTM</li>
+<li>Rimes, IAM; decoding with Kaldi (ASR toolkit)</li>
+</ul></li>
+<li><a href="OCR/2014-jaderberg-convnet-ocr-wild.pdf">2014-jaderberg-convnet-ocr-wild</a>
+<ul>
+<li>convnet, R-CNN, bounding box regression</li>
+<li>synthetic, ICDAR scene text, IIT Scene Text, IIT 5k words, IIT Sports-10k, BBC News</li>
+<li>no bounding boxes in general; initial detector trained on positive word samples, negative images</li>
+<li>10k proposals per image</li>
+</ul></li>
+<li><a href="OCR/2015-sahu-s2s-ocr.pdf">2015-sahu-s2s-ocr</a>
+<ul>
+<li>standard seq2seq encoder/decoder approach</li>
+<li>TSNE visualizations of encoded word images</li>
+<li>word images from scanned books</li>
+</ul></li>
+<li><a href="OCR/2016-bluche-end-to-end-hw-mdlstm-attention.pdf">2016-bluche-end-to-end-hw-mdlstm-attention</a>
+<ul>
+<li>full paragraph handwriting recognition without explicit segmentation</li>
+<li>MDLSTM plus attention, tracking, etc.</li>
+<li>IAM database, pretraining LSTM+CTC, curriculum learning</li>
+</ul></li>
+<li><a href="OCR/2016-he-reading-scene-text.pdf">2016-he-reading-scene-text</a>
+<ul>
+<li>large CNN, Maxout units, LSTM, CTC</li>
+<li>Street View Text, IIT 5k-word, PhotoOCR, etc., using bounding boxes for training</li>
+</ul></li>
+<li><a href="OCR/2016-lee-recursive-recurrent-attention-wild.pdf">2016-lee-recursive-recurrent-attention-wild</a>
+<ul>
+<li>recursive convolutional layers, tied weights, followed by attention, character level modeling</li>
+<li>ICDAR 2003, 2013, SVT, IIT5k, Synth90k using bounding boxes for training</li>
+</ul></li>
 </ul>
 <h2 id="additional-readings">Additional Readings</h2>
 <ul>
