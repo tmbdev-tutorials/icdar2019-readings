@@ -1,144 +1,144 @@
 # Original Convolutional Networks
 
-- [General/1995-lecun-convolutional](1995-lecun-convolutional.pdf)
+- [1995-lecun-convolutional](General/1995-lecun-convolutional.pdf)
 
 # Convolutional Networks on GPUs
 
-- [General/2013-krizhevsky-imagenet](2013-krizhevsky-imagenet.pdf)
+- [2013-krizhevsky-imagenet](General/2013-krizhevsky-imagenet.pdf)
 
 # RCNN
 
-- [General/2013-girshick-rcnn](2013-girshick-rcnn.pdf)
-- [General/2015-girshick-fast-rcnn](2015-girshick-fast-rcnn.pdf)
-- [General/2015-ren-faster-rcnn](2015-ren-faster-rcnn.pdf)
-- [General/2015-ren-faster-rcnn-v3](2015-ren-faster-rcnn-v3.pdf)
+- [2013-girshick-rcnn](General/2013-girshick-rcnn.pdf)
+- [2015-girshick-fast-rcnn](General/2015-girshick-fast-rcnn.pdf)
+- [2015-ren-faster-rcnn](General/2015-ren-faster-rcnn.pdf)
+- [2015-ren-faster-rcnn-v3](General/2015-ren-faster-rcnn-v3.pdf)
 
 # Visualizing
 
-- [General/2013-zeiler-visualizing-cnns](2013-zeiler-visualizing-cnns.pdf)
-- [General/2016-yu-visualizing-vgg](2016-yu-visualizing-vgg.pdf)
+- [2013-zeiler-visualizing-cnns](General/2013-zeiler-visualizing-cnns.pdf)
+- [2016-yu-visualizing-vgg](General/2016-yu-visualizing-vgg.pdf)
 
 # ReLU, MaxPool, Dropout
 
-- [General/2014-srivastava-dropout](2014-srivastava-dropout.pdf)
-- [General/2014-lecun-overfeat](2014-lecun-overfeat.pdf)
-- [General/2014-simonyan-maxpool-very-deep](2014-simonyan-maxpool-very-deep.pdf)
-- [General/2015-szegedy-going-deeper](2015-szegedy-going-deeper.pdf)
+- [2014-srivastava-dropout](General/2014-srivastava-dropout.pdf)
+- [2014-lecun-overfeat](General/2014-lecun-overfeat.pdf)
+- [2014-simonyan-maxpool-very-deep](General/2014-simonyan-maxpool-very-deep.pdf)
+- [2015-szegedy-going-deeper](General/2015-szegedy-going-deeper.pdf)
 
 # Superresolution
 
-- [General/2015-dong-superresolution](2015-dong-superresolution.pdf)
+- [2015-dong-superresolution](General/2015-dong-superresolution.pdf)
 
 # GANs
 
-- [General/2014-goodfellow-gans](2014-goodfellow-gans.pdf)
-- [General/2015-radford-dcgan](2015-radford-dcgan.pdf)
+- [2014-goodfellow-gans](General/2014-goodfellow-gans.pdf)
+- [2015-radford-dcgan](General/2015-radford-dcgan.pdf)
 
 <!-- # Siamese -->
 
 # Saliency
 
-- [General/2014-jiang-saliency](2014-jiang-saliency.pdf)
+- [2014-jiang-saliency](General/2014-jiang-saliency.pdf)
 
 # Batchnorm
 
-- [General/2015-ioffe-batch-normalization](2015-ioffe-batch-normalization.pdf)
+- [2015-ioffe-batch-normalization](General/2015-ioffe-batch-normalization.pdf)
 
 # UNET
 
-- [General/2015-ronnenberger-unet](2015-ronnenberger-unet.pdf)
+- [2015-ronnenberger-unet](General/2015-ronnenberger-unet.pdf)
 
 # Resnet
 
-- [General/2015-he-resnet](2015-he-resnet.pdf)
-- [General/2016-szegedy-inception](2016-szegedy-inception.pdf)
+- [2015-he-resnet](General/2015-he-resnet.pdf)
+- [2016-szegedy-inception](General/2016-szegedy-inception.pdf)
 
 # Strided and Atrous Convolutions
 
-- [General/2017-chen-deeplab-atrous](2017-chen-deeplab-atrous.pdf)
-- [General/2017-chen-rethinking-atrous](2017-chen-rethinking-atrous.pdf)
+- [2017-chen-deeplab-atrous](General/2017-chen-deeplab-atrous.pdf)
+- [2017-chen-rethinking-atrous](General/2017-chen-rethinking-atrous.pdf)
 
 # Transformer Networks
 
-- [General/2015-jaderberg-spatial-transformer](2015-jaderberg-spatial-transformer.pdf)
+- [2015-jaderberg-spatial-transformer](General/2015-jaderberg-spatial-transformer.pdf)
 
 # LSTM, CTC, GRU
 
-- [1999-gers-lstm](1999-gers-lstm.pdf)
-- [General/2005-graves-bdlstm](2005-graves-bdlstm.pdf)
-- [General/2006-graves-ctc](2006-graves-ctc.pdf)
+- [1999-gers-lstm](General/1999-gers-lstm.pdf)
+- [2005-graves-bdlstm](General/2005-graves-bdlstm.pdf)
+- [2006-graves-ctc](General/2006-graves-ctc.pdf)
 
 # 2D LSTM
 
-- [General/2009-graves-multidimensional](2009-graves-multidimensional.pdf)
-- [General/2014-byeon-supervised-texture](2014-byeon-supervised-texture.pdf)
-- [General/2016-visin-reseg](2016-visin-reseg.pdf)
+- [2009-graves-multidimensional](General/2009-graves-multidimensional.pdf)
+- [2014-byeon-supervised-texture](General/2014-byeon-supervised-texture.pdf)
+- [2016-visin-reseg](General/2016-visin-reseg.pdf)
 
 # Seq2Seq, Attention
 
-- [General/2012-graves-sequence-transduction](2012-graves-sequence-transduction.pdf)
-- [General/2016-chorowski-better-decoding](2016-chorowski-better-decoding.pdf)
-- [General/2015-bahdanau-attention](2015-bahdanau-attention.pdf)
-- [General/2017-vaswani-attention-is-all-you-need](2017-vaswani-attention-is-all-you-need.pdf)
-- [General/2017-prabhavalkar-s2s-comparison](2017-prabhavalkar-s2s-comparison.pdf)
+- [2012-graves-sequence-transduction](General/2012-graves-sequence-transduction.pdf)
+- [2016-chorowski-better-decoding](General/2016-chorowski-better-decoding.pdf)
+- [2015-bahdanau-attention](General/2015-bahdanau-attention.pdf)
+- [2017-vaswani-attention-is-all-you-need](General/2017-vaswani-attention-is-all-you-need.pdf)
+- [2017-prabhavalkar-s2s-comparison](General/2017-prabhavalkar-s2s-comparison.pdf)
 
 # Visual Attention
 
-- [General/2017-nam-dual-attention](2017-nam-dual-attention.pdf)
-- [General/2016-you-dual-attention](2016-you-dual-attention.pdf)
+- [2017-nam-dual-attention](General/2017-nam-dual-attention.pdf)
+- [2016-you-dual-attention](General/2016-you-dual-attention.pdf)
 
 # Deformable Convolutions
 
-- [General/2017-dai-deformable](2017-dai-deformable.pdf)
+- [2017-dai-deformable](General/2017-dai-deformable.pdf)
 
 # Parallel and Distributed Training
 
-- [General/2017-chen-distributed-sgd](2017-chen-distributed-sgd.pdf)
+- [2017-chen-distributed-sgd](General/2017-chen-distributed-sgd.pdf)
 
 # Adversarial Samples
 
-- [General/2017-yuan-adversarial](2017-yuan-adversarial.pdf)
+- [2017-yuan-adversarial](General/2017-yuan-adversarial.pdf)
 
 # Squeezing
 
-- [General/2016-iandola-squeezenet](2016-iandola-squeezenet.pdf)
+- [2016-iandola-squeezenet](General/2016-iandola-squeezenet.pdf)
 
 # Surveys
 
-- [General/2014-schmidhuber-deep-learning-survey](2014-schmidhuber-deep-learning-survey.pdf)
-- [General/2015-lecun-nature-deep-learning](2015-lecun-nature-deep-learning.pdf)
-- [General/2018-alom-survey-imagenet](2018-alom-survey-imagenet.pdf)
+- [2014-schmidhuber-deep-learning-survey](General/2014-schmidhuber-deep-learning-survey.pdf)
+- [2015-lecun-nature-deep-learning](General/2015-lecun-nature-deep-learning.pdf)
+- [2018-alom-survey-imagenet](General/2018-alom-survey-imagenet.pdf)
 
 # OCR
 
-- [OCR/2011-fischer-novel-word-spoting](2011-fischer-novel-word-spoting.pdf)
-- [OCR/2012-elaguni-ocr-in-video](2012-elaguni-ocr-in-video.pdf)
-- [OCR/2013-goodfellow-multidigit](2013-goodfellow-multidigit.pdf)
-- [OCR/2014-bluche-comparison-sequence-trained](2014-bluche-comparison-sequence-trained.pdf)
-- [OCR/2014-jaderberg-convnet-ocr-wild](2014-jaderberg-convnet-ocr-wild.pdf)
-- [OCR/2015-karpathy-recurrent-ocr](2015-karpathy-recurrent-ocr.pdf)
-- [OCR/2015-sahu-s2s-ocr](2015-sahu-s2s-ocr.pdf)
-- [OCR/2015-visin-renet](2015-visin-renet.pdf)
-- [OCR/2016-bluche-end-to-end-hw-mdlstm-attention](2016-bluche-end-to-end-hw-mdlstm-attention.pdf)
-- [OCR/2016-he-reading-scene-text](2016-he-reading-scene-text.pdf)
-- [OCR/2016-lee-recursive-recurrent-attention-wild](2016-lee-recursive-recurrent-attention-wild.pdf)
-- [OCR/2016-lee-recursive-recurrent-ocr-wild](2016-lee-recursive-recurrent-ocr-wild.pdf)
+- [2011-fischer-novel-word-spoting](OCR/2011-fischer-novel-word-spoting.pdf)
+- [2012-elaguni-ocr-in-video](OCR/2012-elaguni-ocr-in-video.pdf)
+- [2013-goodfellow-multidigit](OCR/2013-goodfellow-multidigit.pdf)
+- [2014-bluche-comparison-sequence-trained](OCR/2014-bluche-comparison-sequence-trained.pdf)
+- [2014-jaderberg-convnet-ocr-wild](OCR/2014-jaderberg-convnet-ocr-wild.pdf)
+- [2015-karpathy-recurrent-ocr](OCR/2015-karpathy-recurrent-ocr.pdf)
+- [2015-sahu-s2s-ocr](OCR/2015-sahu-s2s-ocr.pdf)
+- [2015-visin-renet](OCR/2015-visin-renet.pdf)
+- [2016-bluche-end-to-end-hw-mdlstm-attention](OCR/2016-bluche-end-to-end-hw-mdlstm-attention.pdf)
+- [2016-he-reading-scene-text](OCR/2016-he-reading-scene-text.pdf)
+- [2016-lee-recursive-recurrent-attention-wild](OCR/2016-lee-recursive-recurrent-attention-wild.pdf)
+- [2016-lee-recursive-recurrent-ocr-wild](OCR/2016-lee-recursive-recurrent-ocr-wild.pdf)
 
 # Unclassified
 
-- [General/2014-donahue-long-term-rcnn](2014-donahue-long-term-rcnn.pdf)
-- [General/2014-karpathy-image-descriptions](2014-karpathy-image-descriptions.pdf)
-- [General/2015-liu-face-attributes-wild](2015-liu-face-attributes-wild.pdf)
-- [General/2015-mnih-deep-reinforcement-learning](2015-mnih-deep-reinforcement-learning.pdf)
-- [General/2015-ng-video-classification](2015-ng-video-classification.pdf)
-- [General/2015-ronneberger-unet](2015-ronneberger-unet.pdf)
-- [General/2015-yu-visual-madlibs](2015-yu-visual-madlibs.pdf)
-- [General/2015-zhang-character-level-convnets-text](2015-zhang-character-level-convnets-text.pdf)
-- [General/2015-zheng-crfs-as-rnns](2015-zheng-crfs-as-rnns.pdf)
-- [General/2016-abadi-tensorflow](2016-abadi-tensorflow.pdf)
-- [General/2016-mnih-async-dl](2016-mnih-async-dl.pdf)
-- [General/2018-burda-curiosity](2018-burda-curiosity.pdf)
-- [General/2018-metz-metalearning](2018-metz-metalearning.pdf)
-- [General/2017-wang-tacotron](2017-wang-tacotron.pdf)
-- [General/2016-vinyals-matching-networks](2016-vinyals-matching-networks.pdf)
-- [General/2016-zhang-very-deep-speech](2016-zhang-very-deep-speech.pdf)
+- [2014-donahue-long-term-rcnn](General/2014-donahue-long-term-rcnn.pdf)
+- [2014-karpathy-image-descriptions](General/2014-karpathy-image-descriptions.pdf)
+- [2015-liu-face-attributes-wild](General/2015-liu-face-attributes-wild.pdf)
+- [2015-mnih-deep-reinforcement-learning](General/2015-mnih-deep-reinforcement-learning.pdf)
+- [2015-ng-video-classification](General/2015-ng-video-classification.pdf)
+- [2015-ronneberger-unet](General/2015-ronneberger-unet.pdf)
+- [2015-yu-visual-madlibs](General/2015-yu-visual-madlibs.pdf)
+- [2015-zhang-character-level-convnets-text](General/2015-zhang-character-level-convnets-text.pdf)
+- [2015-zheng-crfs-as-rnns](General/2015-zheng-crfs-as-rnns.pdf)
+- [2016-abadi-tensorflow](General/2016-abadi-tensorflow.pdf)
+- [2016-mnih-async-dl](General/2016-mnih-async-dl.pdf)
+- [2018-burda-curiosity](General/2018-burda-curiosity.pdf)
+- [2018-metz-metalearning](General/2018-metz-metalearning.pdf)
+- [2017-wang-tacotron](General/2017-wang-tacotron.pdf)
+- [2016-vinyals-matching-networks](General/2016-vinyals-matching-networks.pdf)
+- [2016-zhang-very-deep-speech](General/2016-zhang-very-deep-speech.pdf)
