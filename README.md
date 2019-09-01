@@ -34,7 +34,7 @@
 - [2014-goodfellow-gans](2014-goodfellow-gans.pdf)
 - [2015-radford-dcgan](2015-radford-dcgan.pdf)
 
-# Siamese
+<!-- # Siamese -->
 
 # Saliency
 
@@ -42,7 +42,11 @@
 
 # Batchnorm
 
+- [2015-ioffe-batch-normalization.pdf](2015-ioffe-batch-normalization.pdf)
+
 # UNET
+
+- [2015-ronnenberger-unet.pdf](2015-ronnenberger-unet.pdf)
 
 # Resnet
 
@@ -51,19 +55,30 @@
 
 # Strided and Atrous Convolutions
 
+- [2017-chen-deeplab-atrous.pdf](2017-chen-deeplab-atrous.pdf)
+- [2017-chen-rethinking-atrous.pdf](2017-chen-rethinking-atrous.pdf)
+
 # Transformer Networks
 
 - [2015-jaderberg-spatial-transformer](2015-jaderberg-spatial-transformer.pdf)
 
-# LSTM
+# LSTM, CTC, GRU
+
+- [1999-gers-lstm.pdf](1999-gers-lstm.pdf)
+- [2005-graves-bdlstm.pdf](2005-graves-bdlstm.pdf)
+- [2006-graves-ctc.pdf](2006-graves-ctc.pdf)
 
 # 2D LSTM
 
-# CTC
+# Seq2Seq, Attention
 
-# Seq2Seq
+- [2012-graves-sequence-transduction.pdf](2012-graves-sequence-transduction.pdf)
+- [2016-chorowski-better-decoding.pdf](2016-chorowski-better-decoding.pdf)
+- [2015-bahdanau-attention.pdf](2015-bahdanau-attention.pdf)
+- [2017-vaswani-attention-is-all-you-need.pdf](2017-vaswani-attention-is-all-you-need.pdf)
+- [2017-prabhavalkar-s2s-comparison.pdf](2017-prabhavalkar-s2s-comparison.pdf)
 
-# Attention
+# Visual Attention
 
 # Parallel and Distributed Training
 
@@ -96,3 +111,6 @@
 - [2016-mnih-async-dl](2016-mnih-async-dl.pdf)
 - [2018-burda-curiosity](2018-burda-curiosity.pdf)
 - [2018-metz-metalearning](2018-metz-metalearning.pdf)
+- [2017-wang-tacotron.pdf](2017-wang-tacotron.pdf)
+- [2016-vinyals-matching-networks.pdf](2016-vinyals-matching-networks.pdf)
+- [2016-zhang-very-deep-speech.pdf](2016-zhang-very-deep-speech.pdf)
