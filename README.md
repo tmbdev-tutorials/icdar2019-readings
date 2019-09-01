@@ -126,7 +126,7 @@
 - [2016-lee-recursive-recurrent-attention-wild](OCR/2016-lee-recursive-recurrent-attention-wild.pdf)
 - [2016-lee-recursive-recurrent-ocr-wild](OCR/2016-lee-recursive-recurrent-ocr-wild.pdf)
 
-## Unclassified
+## Additional Readings
 
 - [2014-donahue-long-term-rcnn](General/2014-donahue-long-term-rcnn.pdf)
 - [2014-karpathy-image-descriptions](General/2014-karpathy-image-descriptions.pdf)
