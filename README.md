@@ -12,9 +12,6 @@
 - [2013-krizhevsky-imagenet](General/2013-krizhevsky-imagenet.pdf)
     - ReLU, GPU training, local response normalization, pooling layers, dropout
     - Imagenet dataset
-- [2013-goodfellow-multidigit](OCR/2013-goodfellow-multidigit.pdf)
-    - Google SVHN digits, 200k numbers with bounding boxes
-    - 8 layer convnet, ad-hoc sequence modeling
 - [2014-srivastava-dropout](General/2014-srivastava-dropout.pdf)
     - dropouts as ensembles of networks
     - intended to prevent overtraining, improve generalization
@@ -31,6 +28,12 @@
     - "inception modules", modular construction
 - [2015-he-resnet](General/2015-he-resnet.pdf)
     - Introduces Resnet architecture
+
+OCR:
+
+- [2013-goodfellow-multidigit](OCR/2013-goodfellow-multidigit.pdf)
+    - Google SVHN digits, 200k numbers with bounding boxes
+    - 8 layer convnet, ad-hoc sequence modeling
 
 ## Segmentation, Superresolution with Convolutional Networks
 
@@ -63,6 +66,9 @@
 - [2015-ren-faster-rcnn-v3](General/2015-ren-faster-rcnn-v3.pdf)
     - region proposal network (object/not object, box coords at each loc)
     - translation invariant anchors
+
+OCR:
+
 - [2014-jaderberg-convnet-ocr-wild](OCR/2014-jaderberg-convnet-ocr-wild.pdf)
     - convnet, R-CNN, bounding box regression
     - synthetic, ICDAR scene text, IIT Scene Text, IIT 5k words, IIT Sports-10k, BBC News
@@ -90,6 +96,9 @@
     - introduces bidirectional LSTM
 - [2006-graves-ctc](General/2006-graves-ctc.pdf)
     - introduces CTC alignment (a kind of forward-backward algorithm)
+
+OCR:
+
 - [2012-elaguni-ocr-in-video](OCR/2012-elaguni-ocr-in-video.pdf)
     - manually labeled training data on small dataset
     - multiscale, convnet features, BLSTM, CTC
@@ -108,6 +117,9 @@
     - supervised image segmentation using multidimensional LSTM
 - [2016-visin-reseg](General/2016-visin-reseg.pdf)
     - separable multidimensional LSTMs for image segmentation
+
+OCR:
+
 - [2015-visin-renet](OCR/2015-visin-renet.pdf)
     - separable multidimensional LSTMs for OCR
 
@@ -128,6 +140,9 @@
     - a comparison of different sequence-to-sequence approaches
 - [2017-gehring-convolutional-s2s](General/2017-gehring-convolutional-s2s.pdf)
     - purely convolutional sequence-to-sequence with attention
+
+OCR:
+
 - [2015-sahu-s2s-ocr](OCR/2015-sahu-s2s-ocr.pdf)
     - standard seq2seq encoder/decoder approach
     - TSNE visualizations of encoded word images
@@ -137,6 +152,9 @@
 
 - [2017-nam-dual-attention](General/2017-nam-dual-attention.pdf)
     - joint visual and text attention networks
+
+OCR:
+
 - [2016-bluche-end-to-end-hw-mdlstm-attention](OCR/2016-bluche-end-to-end-hw-mdlstm-attention.pdf)
     - full paragraph handwriting recognition without explicit segmentation
     - MDLSTM plus attention, tracking, etc.
