@@ -167,7 +167,12 @@ OCR:
     - recursive convolutional layers, tied weights, followed by attention, character level modeling
     - ICDAR 2003, 2013, SVT, IIT5k, Synth90k using bounding boxes for training
 
-## Unsupervised, Semi-Supervised, Multitask Learning
+## Domain Adaptation, Unsupervised, Semi-Supervised, Multitask Learning
+
+Domain Adaptation:
+
+- [2017-liu-unsupervised-domain-adaptation](Learning/2017-liu-unsupervised-domain-adaptation.pdf)
+- [2017-tzen-adversarial-domain-discriminator-adaptation](Learning/2017-tzen-adversarial-domain-discriminator-adaptation.pdf)
 
 Semi-Supervised Learning:
 
@@ -184,7 +189,6 @@ Examples of Unsupervised Learning:
 - [2016-lin-unsupervised-binary-descriptors](Learning/2016-lin-unsupervised-binary-descriptors.pdf)
 - [2016-radford-unsupervised-representation-learning](Learning/2016-radford-unsupervised-representation-learning.pdf)
 - [2016-xie-unsupervised-deep-embedding](Learning/2016-xie-unsupervised-deep-embedding.pdf)
-- [2017-liu-unsupervised-domain-adaptation](Learning/2017-liu-unsupervised-domain-adaptation.pdf)
 - [2017-ren-unsupervised-deep-flow](Learning/2017-ren-unsupervised-deep-flow.pdf)
 - [2017-lotter-unsupervised-predictive-video-coding](Learning/2017-lotter-unsupervised-predictive-video-coding.pdf)
 - [2018-li-unsupervised-odometry](Learning/2018-li-unsupervised-odometry.pdf)
