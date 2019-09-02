@@ -146,6 +146,7 @@
 
 ## Additional Readings
 
+- [2013-goodfellow-maxout](More/2013-goodfellow-maxout.pdf)
 - [2014-donahue-long-term-rcnn](General/2014-donahue-long-term-rcnn.pdf)
 - [2014-karpathy-image-descriptions](General/2014-karpathy-image-descriptions.pdf)
 - [2015-liu-face-attributes-wild](General/2015-liu-face-attributes-wild.pdf)
@@ -156,9 +157,17 @@
 - [2015-zhang-character-level-convnets-text](General/2015-zhang-character-level-convnets-text.pdf)
 - [2015-zheng-crfs-as-rnns](General/2015-zheng-crfs-as-rnns.pdf)
 - [2016-abadi-tensorflow](General/2016-abadi-tensorflow.pdf)
+- [2016-ba-layernorm](More/2016-ba-layernorm.pdf)
 - [2016-mnih-async-dl](General/2016-mnih-async-dl.pdf)
-- [2018-burda-curiosity](General/2018-burda-curiosity.pdf)
-- [2018-metz-metalearning](General/2018-metz-metalearning.pdf)
-- [2017-wang-tacotron](General/2017-wang-tacotron.pdf)
+- [2016-salimans-weightnorm](More/2016-salimans-weightnorm.pdf)
+- [2016-shi-superresolution](More/2016-shi-superresolution.pdf)
+- [2016-ulyanof-instancenorm](More/2016-ulyanof-instancenorm.pdf)
 - [2016-vinyals-matching-networks](General/2016-vinyals-matching-networks.pdf)
 - [2016-zhang-very-deep-speech](General/2016-zhang-very-deep-speech.pdf)
+- [2017-barron-celu](More/2017-barron-celu.pdf)
+- [2017-hochrreiter-self-normalizing-networks](More/2017-hochrreiter-self-normalizing-networks.pdf)
+- [2017-ioffe-batchnorm](More/2017-ioffe-batchnorm.pdf)
+- [2017-wang-tacotron](General/2017-wang-tacotron.pdf)
+- [2018-burda-curiosity](General/2018-burda-curiosity.pdf)
+- [2018-metz-metalearning](General/2018-metz-metalearning.pdf)
+- [2018-wu-groupnorm](More/2018-wu-groupnorm.pdf)
