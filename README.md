@@ -28,6 +28,10 @@
     - "inception modules", modular construction
 - [2015-he-resnet](General/2015-he-resnet.pdf)
     - Introduces Resnet architecture
+- [2015-jaderberg-spatial-transformer](General/2015-jaderberg-spatial-transformer.pdf)
+    - adds spatial transformations/distortions to learnable primitives
+- [2017-dai-deformable](General/2017-dai-deformable.pdf)
+    - adds deformable convolutions to learnable primitives
 
 OCR:
 
@@ -41,19 +45,15 @@ OCR:
     - explicit upscaling of images
 - [2015-ronneberger-unet](General/2015-ronneberger-unet.pdf)
     - general U-net architecture for image-to-image mappings
-
-<!-- more pixel2pixel, image2image transformations -->
-
-## Additional Kernels
-
-- [2015-jaderberg-spatial-transformer](General/2015-jaderberg-spatial-transformer.pdf)
-    - adds spatial transformations/distortions to learnable primitives
-- [2017-dai-deformable](General/2017-dai-deformable.pdf)
-    - adds deformable convolutions to learnable primitives
+- [2017-blogpost-semantic-segmentation.pdf](Blogs/2017-blogpost-semantic-segmentation.pdf)
+    - survey of semantic segmentation architectures
 - [2017-chen-deeplab-atrous](General/2017-chen-deeplab-atrous.pdf)
+    - semantic segmentation
     - adds atrous convolutions to learnable primitives
 - [2017-chen-rethinking-atrous](General/2017-chen-rethinking-atrous.pdf)
-    - adds atrous convolutions to learnable primitives
+    - adds atrous convolutions to learnable primitives, deeplab v3
+
+<!-- more pixel2pixel, image2image transformations -->
 
 ## RCNN and Overfeat
 
@@ -224,7 +224,7 @@ Transfer and Multitask Learning:
 
 - [2014-schmidhuber-deep-learning-survey](General/2014-schmidhuber-deep-learning-survey.pdf)
 - [2015-lecun-nature-deep-learning](General/2015-lecun-nature-deep-learning.pdf)
-- [2015-karpathy-recurrent-ocr](OCR/2015-karpathy-recurrent-ocr.pdf)
+- [2015-karpathy-recurrent-ocr](Blogs/2015-karpathy-recurrent-ocr.pdf)
 - [2018-alom-survey-imagenet](General/2018-alom-survey-imagenet.pdf)
 
 # Additional Readings
