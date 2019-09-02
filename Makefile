@@ -1,3 +1,8 @@
+MD = $(wildcard *.md)
+HTML = $(MD:.md=.html)
+
+all: index.html $(HTML)
+
 %.html: %.md
 	pandoc -t html $^ > $@
 
