@@ -195,10 +195,9 @@ Examples of Unsupervised Learning:
 
 Transfer and Multitask Learning:
 
+- [2016-geng-transfer-learning-reid](Learning/2016-geng-transfer-learning-reid.pdf)
 - [2016-rusu-progressive-networks](Learning/2016-rusu-progressive-networks.pdf)
 - [2017-ruder-multitask-survey](Learning/2017-ruder-multitask-survey.pdf)
-
-- [2016-geng-transfer-learning-reid](Learning/2016-geng-transfer-learning-reid.pdf)
 
 ## GANs
 
