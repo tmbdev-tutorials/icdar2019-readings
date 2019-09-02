@@ -117,6 +117,10 @@ OCR:
     - supervised image segmentation using multidimensional LSTM
 - [2016-visin-reseg](General/2016-visin-reseg.pdf)
     - separable multidimensional LSTMs for image segmentation
+- [2015-sonderby-convolutional](General/2015-sonderby-convolutional.pdf)
+    - convolutional LSTM architecture and attention
+- [2016-shi-convolutional-lstm](General/2016-shi-convolutional-lstm.pdf)
+    - convolutional LSTM architecture
 
 OCR:
 
@@ -162,6 +166,35 @@ OCR:
 - [2016-lee-recursive-recurrent-attention-wild](OCR/2016-lee-recursive-recurrent-attention-wild.pdf)
     - recursive convolutional layers, tied weights, followed by attention, character level modeling
     - ICDAR 2003, 2013, SVT, IIT5k, Synth90k using bounding boxes for training
+
+## Unsupervised, Semi-Supervised, Multitask Learning
+
+Semi-Supervised Learning:
+
+- [2005-zhu-semi-supervised](Learning/2005-zhu-semi-supervised.pdf)
+    - classical methods of semi-supervised learning
+- [2017-li-noisy-labels-distillation](Learning/2017-li-noisy-labels-distillation.pdf)
+    - uses distillation for dealing with noisy lables
+- [2018-oliver-evaluation-semi-supervised](Learning/2018-oliver-evaluation-semi-supervised.pdf)
+- [2018-ren-metalearning-semi-supervised](Learning/2018-ren-metalearning-semi-supervised.pdf)
+- [2018-tanaka-joint-optimization-noisy-labels](Learning/2018-tanaka-joint-optimization-noisy-labels.pdf)
+
+Examples of Unsupervised Learning:
+
+- [2016-lin-unsupervised-binary-descriptors](Learning/2016-lin-unsupervised-binary-descriptors.pdf)
+- [2016-radford-unsupervised-representation-learning](Learning/2016-radford-unsupervised-representation-learning.pdf)
+- [2016-xie-unsupervised-deep-embedding](Learning/2016-xie-unsupervised-deep-embedding.pdf)
+- [2017-liu-unsupervised-domain-adaptation](Learning/2017-liu-unsupervised-domain-adaptation.pdf)
+- [2017-ren-unsupervised-deep-flow](Learning/2017-ren-unsupervised-deep-flow.pdf)
+- [2017-lotter-unsupervised-predictive-video-coding](Learning/2017-lotter-unsupervised-predictive-video-coding.pdf)
+- [2018-li-unsupervised-odometry](Learning/2018-li-unsupervised-odometry.pdf)
+
+Transfer and Multitask Learning:
+
+- [2016-rusu-progressive-networks](Learning/2016-rusu-progressive-networks.pdf)
+- [2017-ruder-multitask-survey](Learning/2017-ruder-multitask-survey.pdf)
+
+- [2016-geng-transfer-learning-reid](Learning/2016-geng-transfer-learning-reid.pdf)
 
 ## GANs
 

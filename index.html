@@ -15,11 +15,6 @@
 <li>ReLU, GPU training, local response normalization, pooling layers, dropout</li>
 <li>Imagenet dataset</li>
 </ul></li>
-<li><a href="OCR/2013-goodfellow-multidigit.pdf">2013-goodfellow-multidigit</a>
-<ul>
-<li>Google SVHN digits, 200k numbers with bounding boxes</li>
-<li>8 layer convnet, ad-hoc sequence modeling</li>
-</ul></li>
 <li><a href="General/2014-srivastava-dropout.pdf">2014-srivastava-dropout</a>
 <ul>
 <li>dropouts as ensembles of networks</li>
@@ -49,6 +44,14 @@
 <li><a href="General/2015-he-resnet.pdf">2015-he-resnet</a>
 <ul>
 <li>Introduces Resnet architecture</li>
+</ul></li>
+</ul>
+<p>OCR:</p>
+<ul>
+<li><a href="OCR/2013-goodfellow-multidigit.pdf">2013-goodfellow-multidigit</a>
+<ul>
+<li>Google SVHN digits, 200k numbers with bounding boxes</li>
+<li>8 layer convnet, ad-hoc sequence modeling</li>
 </ul></li>
 </ul>
 <h2 id="segmentation-superresolution-with-convolutional-networks">Segmentation, Superresolution with Convolutional Networks</h2>
@@ -99,6 +102,9 @@
 <li>region proposal network (object/not object, box coords at each loc)</li>
 <li>translation invariant anchors</li>
 </ul></li>
+</ul>
+<p>OCR:</p>
+<ul>
 <li><a href="OCR/2014-jaderberg-convnet-ocr-wild.pdf">2014-jaderberg-convnet-ocr-wild</a>
 <ul>
 <li>convnet, R-CNN, bounding box regression</li>
@@ -144,6 +150,9 @@
 <ul>
 <li>introduces CTC alignment (a kind of forward-backward algorithm)</li>
 </ul></li>
+</ul>
+<p>OCR:</p>
+<ul>
 <li><a href="OCR/2012-elaguni-ocr-in-video.pdf">2012-elaguni-ocr-in-video</a>
 <ul>
 <li>manually labeled training data on small dataset</li>
@@ -174,6 +183,17 @@
 <ul>
 <li>separable multidimensional LSTMs for image segmentation</li>
 </ul></li>
+<li><a href="General/2015-sonderby-convolutional.pdf">2015-sonderby-convolutional</a>
+<ul>
+<li>convolutional LSTM architecture and attention</li>
+</ul></li>
+<li><a href="General/2016-shi-convolutional-lstm.pdf">2016-shi-convolutional-lstm</a>
+<ul>
+<li>convolutional LSTM architecture</li>
+</ul></li>
+</ul>
+<p>OCR:</p>
+<ul>
 <li><a href="OCR/2015-visin-renet.pdf">2015-visin-renet</a>
 <ul>
 <li>separable multidimensional LSTMs for OCR</li>
@@ -210,6 +230,9 @@
 <ul>
 <li>purely convolutional sequence-to-sequence with attention</li>
 </ul></li>
+</ul>
+<p>OCR:</p>
+<ul>
 <li><a href="OCR/2015-sahu-s2s-ocr.pdf">2015-sahu-s2s-ocr</a>
 <ul>
 <li>standard seq2seq encoder/decoder approach</li>
@@ -223,6 +246,9 @@
 <ul>
 <li>joint visual and text attention networks</li>
 </ul></li>
+</ul>
+<p>OCR:</p>
+<ul>
 <li><a href="OCR/2016-bluche-end-to-end-hw-mdlstm-attention.pdf">2016-bluche-end-to-end-hw-mdlstm-attention</a>
 <ul>
 <li>full paragraph handwriting recognition without explicit segmentation</li>
@@ -234,6 +260,37 @@
 <li>recursive convolutional layers, tied weights, followed by attention, character level modeling</li>
 <li>ICDAR 2003, 2013, SVT, IIT5k, Synth90k using bounding boxes for training</li>
 </ul></li>
+</ul>
+<h2 id="unsupervised-semi-supervised-multitask-learning">Unsupervised, Semi-Supervised, Multitask Learning</h2>
+<p>Semi-Supervised Learning:</p>
+<ul>
+<li><a href="Learning/2005-zhu-semi-supervised.pdf">2005-zhu-semi-supervised</a>
+<ul>
+<li>classical methods of semi-supervised learning</li>
+</ul></li>
+<li><a href="Learning/2017-li-noisy-labels-distillation.pdf">2017-li-noisy-labels-distillation</a>
+<ul>
+<li>uses distillation for dealing with noisy lables</li>
+</ul></li>
+<li><a href="Learning/2018-oliver-evaluation-semi-supervised.pdf">2018-oliver-evaluation-semi-supervised</a></li>
+<li><a href="Learning/2018-ren-metalearning-semi-supervised.pdf">2018-ren-metalearning-semi-supervised</a></li>
+<li><a href="Learning/2018-tanaka-joint-optimization-noisy-labels.pdf">2018-tanaka-joint-optimization-noisy-labels</a></li>
+</ul>
+<p>Examples of Unsupervised Learning:</p>
+<ul>
+<li><a href="Learning/2016-lin-unsupervised-binary-descriptors.pdf">2016-lin-unsupervised-binary-descriptors</a></li>
+<li><a href="Learning/2016-radford-unsupervised-representation-learning.pdf">2016-radford-unsupervised-representation-learning</a></li>
+<li><a href="Learning/2016-xie-unsupervised-deep-embedding.pdf">2016-xie-unsupervised-deep-embedding</a></li>
+<li><a href="Learning/2017-liu-unsupervised-domain-adaptation.pdf">2017-liu-unsupervised-domain-adaptation</a></li>
+<li><a href="Learning/2017-ren-unsupervised-deep-flow.pdf">2017-ren-unsupervised-deep-flow</a></li>
+<li><a href="Learning/2017-lotter-unsupervised-predictive-video-coding.pdf">2017-lotter-unsupervised-predictive-video-coding</a></li>
+<li><a href="Learning/2018-li-unsupervised-odometry.pdf">2018-li-unsupervised-odometry</a></li>
+</ul>
+<p>Transfer and Multitask Learning:</p>
+<ul>
+<li><a href="Learning/2016-rusu-progressive-networks.pdf">2016-rusu-progressive-networks</a></li>
+<li><p><a href="Learning/2017-ruder-multitask-survey.pdf">2017-ruder-multitask-survey</a></p></li>
+<li><p><a href="Learning/2016-geng-transfer-learning-reid.pdf">2016-geng-transfer-learning-reid</a></p></li>
 </ul>
 <h2 id="gans">GANs</h2>
 <ul>
