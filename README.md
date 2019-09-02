@@ -87,6 +87,8 @@ OCR:
     - learns inverses to layers via unpooling, transposed convolutions
 - [2016-yu-visualizing-vgg](General/2016-yu-visualizing-vgg.pdf)
     - applied to VGG16
+- [2018-li-pyramid-attention](General/2018-li-pyramid-attention.pdf)
+    - combines multiresolution and attention
 
 ## LSTM, CTC, GRU
 
