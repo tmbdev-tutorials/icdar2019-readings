@@ -35,9 +35,13 @@
 
 OCR:
 
+- [2013-breuel-high-performance-ocr-lstm](OCR/2013-breuel-high-performance-ocr-lstm.pdf)
+    - LSTM for printed OCR
 - [2013-goodfellow-multidigit](OCR/2013-goodfellow-multidigit.pdf)
     - Google SVHN digits, 200k numbers with bounding boxes
     - 8 layer convnet, ad-hoc sequence modeling
+- [2017-breuel-lstm-ocr](OCR/2017-breuel-lstm-ocr.pdf)
+    - comparison of different convnet+LSTM architectures for OCR
 
 ## Segmentation, Superresolution with Convolutional Networks
 
@@ -45,15 +49,37 @@ OCR:
     - explicit upscaling of images
 - [2015-ronneberger-unet](General/2015-ronneberger-unet.pdf)
     - general U-net architecture for image-to-image mappings
-- [2017-blogpost-semantic-segmentation.pdf](Blogs/2017-blogpost-semantic-segmentation.pdf)
+- [2015-byeon-mdlstm-segmentation](General/2015-byeon-mdlstm-segmentation.pdf)
+    - MDLSTM for image segmentation
+- [2015-stollenga-pyramid-lstm](General/2015-stollenga-pyramid-lstm.pdf)
+    - pyramid LSTM architecture
+- [2015-long-convnet-semantic-segmentation](General/2015-long-convnet-semantic-segmentation.pdf)
+    - semantic segmentation with convolutional networks
+- [2015-girshick-rich-feature-hierarchies](General/2015-girshick-rich-feature-hierarchies.pdf)
+    - semantic segmentation with convolutional networks (multitask)
+- [2015-noh-deconvolutional-networks](General/2015-noh-deconvolutional-networks.pdf)
+    - atrous convolutions
+- [2017-blogpost-semantic-segmentation](Blogs/2017-blogpost-semantic-segmentation.pdf)
     - survey of semantic segmentation architectures
+- [2016-chen-deeplab](General/2016-chen-deeplab.pdf)
 - [2017-chen-deeplab-atrous](General/2017-chen-deeplab-atrous.pdf)
-    - semantic segmentation
-    - adds atrous convolutions to learnable primitives
 - [2017-chen-rethinking-atrous](General/2017-chen-rethinking-atrous.pdf)
-    - adds atrous convolutions to learnable primitives, deeplab v3
+    - atrous convolutions to learnable primitives, deeplab v3
 
-<!-- more pixel2pixel, image2image transformations -->
+OCR:
+
+- [2015-afzal-binarization-mdlstm](OCR/2015-afzal-binarization-mdlstm.pdf)
+    - MDLSTM for binarization (image-to-image transformation)
+- [2017-breuel-mdlstm-layout](OCR/2017-breuel-mdlstm-layout.pdf)
+    - layout analysis with MDLSTM
+- [2017-chen-convnet-page-segmentation](OCR/2017-chen-convnet-page-segmentation.pdf)
+    - layout analysis with convolutional nteworks
+- [2017-he-semantic-page-segmentation](OCR/2017-he-semantic-page-segmentation.pdf)
+    - layout analysis with convolutional nteworks
+- [2018-mohan-layout-error-correction-using-dnn](OCR/2018-mohan-layout-error-correction-using-dnn.pdf)
+    - layout analysis with convolutional nteworks
+
+<!-- pix2pix etc. -->
 
 ## RCNN and Overfeat
 
@@ -110,6 +136,7 @@ OCR:
 - [2016-he-reading-scene-text](OCR/2016-he-reading-scene-text.pdf)
     - large CNN, Maxout units, LSTM, CTC
     - Street View Text, IIT 5k-word, PhotoOCR, etc., using bounding boxes for training
+- [2017-wang-gru-ocr](OCR/2017-wang-gru-ocr.pdf)
 
 ## 2D LSTM
 
@@ -168,6 +195,10 @@ OCR:
 - [2016-lee-recursive-recurrent-attention-wild](OCR/2016-lee-recursive-recurrent-attention-wild.pdf)
     - recursive convolutional layers, tied weights, followed by attention, character level modeling
     - ICDAR 2003, 2013, SVT, IIT5k, Synth90k using bounding boxes for training
+
+## Language Modeling
+
+- [2016-rosca-lstm-transcript](OCR/2016-rosca-lstm-transcript.pdf)
 
 ## Domain Adaptation, Unsupervised, Semi-Supervised, Multitask Learning
 
