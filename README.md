@@ -196,6 +196,8 @@ OCR:
     - recursive convolutional layers, tied weights, followed by attention, character level modeling
     - ICDAR 2003, 2013, SVT, IIT5k, Synth90k using bounding boxes for training
 
+<!-- 
+
 ## Language Modeling
 
 - [2016-rosca-lstm-transcript](OCR/2016-rosca-lstm-transcript.pdf)
@@ -214,6 +216,7 @@ Semi-Supervised Learning:
 - [2017-li-noisy-labels-distillation](Learning/2017-li-noisy-labels-distillation.pdf)
     - uses distillation for dealing with noisy lables
 - [2018-oliver-evaluation-semi-supervised](Learning/2018-oliver-evaluation-semi-supervised.pdf)
+
 - [2018-ren-metalearning-semi-supervised](Learning/2018-ren-metalearning-semi-supervised.pdf)
 - [2018-tanaka-joint-optimization-noisy-labels](Learning/2018-tanaka-joint-optimization-noisy-labels.pdf)
 
@@ -239,8 +242,8 @@ Transfer and Multitask Learning:
 - [2016-isola-image2image-gan](General/2016-isola-image2image-gan.pdf)
 - [2016-salimans-improved-gan-training](General/2016-salimans-improved-gan-training.pdf)
 
-<!-- - [2016-ho-gan-imitation-learning](General/2016-ho-gan-imitation-learning.pdf) -->
-<!-- # Siamese -->
+- [2016-ho-gan-imitation-learning](General/2016-ho-gan-imitation-learning.pdf)
+## Siamese
 
 ## Computational Issues
 
@@ -284,3 +287,4 @@ Transfer and Multitask Learning:
 - [2018-metz-metalearning](General/2018-metz-metalearning.pdf)
 - [2018-wu-groupnorm](More/2018-wu-groupnorm.pdf)
 
+-->
